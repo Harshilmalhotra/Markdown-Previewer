@@ -20,8 +20,25 @@ export default {
         'xl': '1200px',
         // => @media (min-width: 1200px) { ... }
       },
+
+      colors: {
+        'gradient-start': '#7F00FF',
+        'gradient-end': '#E100FF',
+      },
+      backgroundImage: theme => ({
+        'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
+      }),
     },
   },
-  plugins: [],
+
+  variants: {
+    extend: {
+      backgroundImage: ['hover', 'focus'],
+    },
+  },
+  plugins: [
+    
+  ],
+  
 }
 
