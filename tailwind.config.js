@@ -5,40 +5,22 @@ export default {
     './src/**/*.jsx',
     // Add paths to all of the files you want to include in the purge
   ],
+
   theme: {
     extend: {
-      screens: {
-        'sm': '576px',
-        // => @media (min-width: 576px) { ... }
-      
-        'md': '768px',
-        // => @media (min-width: 768px) { ... }
-      
-        'lg': '992px',
-        // => @media (min-width: 992px) { ... }
-      
-        'xl': '1200px',
-        // => @media (min-width: 1200px) { ... }
-      },
-
-      colors: {
-        'gradient-start': '#7F00FF',
-        'gradient-end': '#E100FF',
-      },
-      backgroundImage: theme => ({
-        'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
-      }),
+      // fontSize: {
+      //   'h1': '48px',
+      //   'h2': '36px',
+      //   'h3': '30px',
+      //   'h4': '24px',
+      //   'h5': '20px',
+      //   'h6': '16px',
+      // },
     },
   },
 
-  variants: {
-    extend: {
-      backgroundImage: ['hover', 'focus'],
-    },
-  },
-  plugins: [
-    
-  ],
-  
+  variants: {},
+  plugins: [],
+
 }
 
