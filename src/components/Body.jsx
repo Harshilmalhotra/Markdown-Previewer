@@ -54,7 +54,7 @@ export default function Body() {
         
 
        
-        <section className="h-[33rem] flex justify-between pr-16 pl-16 pt-10 pb-10 bg-slate-950 ">
+        <section className="h-[37rem] flex justify-between pr-16 pl-16 pt-10 pb-10 bg-slate-950 ">
                 
         {/* Input Section */}
 
