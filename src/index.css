@@ -2,32 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap')
+
 @tailwind base;
 h1 {
-  @apply text-4xl;
-  @apply font-bold;
+  @apply text-3xl;
+  @apply font-semibold;
 }
 h2 {
-  @apply text-3xl;
-  @apply font-bold;
+  @apply text-2xl;
+  @apply font-semibold;
 }
 h3 {
-  @apply text-2xl;
-  @apply font-bold;
-}
-h4 {
   @apply text-xl;
   @apply font-semibold;
 }
+h4 {
+  @apply text-lg;
+  @apply font-semibold;
+}
 h5 {
-  @apply text-lg; 
+  @apply text-base; 
   @apply font-semibold;
 }
 h6 {
-  @apply text-base;
+  @apply text-sm;
   @apply font-semibold;
 }
-
 
 
 

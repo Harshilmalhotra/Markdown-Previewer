@@ -69,7 +69,7 @@ export default function Body() {
 
                     </div> 
                     
-                    <textarea id='editor' className="h-[23.5rem] w-full p-2 bg-gray-900 h-[25rem] text-white" placeholder="Enter the text in markdown...."  style={{ outline: 'none', /* or borderColor: 'transparent' */ }}></textarea>
+                    <textarea id='editor' className="h-[23.5rem] w-full p-2 bg-gray-900 h-[25rem] text-white font-mono" placeholder="Enter the text in markdown...."  style={{ outline: 'none', /* or borderColor: 'transparent' */ }}></textarea>
                 
                 </div>
 

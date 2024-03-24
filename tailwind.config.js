@@ -13,7 +13,11 @@ export default {
       'lg': '1024px',  // Large screens (e.g., small desktops)
       
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        baloo: ["Baloo Bhai 2", "sans-serif"],
+      },
+    },
   },
 
   variants: {},
