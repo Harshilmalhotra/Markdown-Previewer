@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+
+
+// Rest of your code...
 // import Marked from "D:\Web Dev\markdown-previewer\Marked.js";
 import 'boxicons'
 
@@ -26,9 +29,10 @@ function changeContent() {
 }
 // Preview text in real time
 function updatePreview() {
-    let input = document.getElementById('editor').value;
-    let output = marked.parse(input); // Use marked like this
+    var input = document.getElementById('editor').value;
+    var output = marked.parse(input); // Use marked like this
     console.log(input);
+    console.log(output);
     document.getElementById('preview').innerHTML = output;
 }
 
