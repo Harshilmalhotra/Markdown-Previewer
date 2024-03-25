@@ -69,8 +69,3 @@ Please refer to the [CONTRIBUTING.md]() file for more information on how you can
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Harshilmalhotra/Markdown-Previewer/blob/main/LICENSE) file for details.
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
