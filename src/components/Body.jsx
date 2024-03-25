@@ -28,7 +28,7 @@ function changeContent() {
 function updatePreview() {
     let input = document.getElementById('editor').value;
     let output = marked.parse(input); // Use marked like this
-    console.log(output);
+    console.log(input);
     document.getElementById('preview').innerHTML = output;
 }
 
