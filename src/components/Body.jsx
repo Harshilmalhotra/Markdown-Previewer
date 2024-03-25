@@ -30,10 +30,10 @@ function changeContent() {
 // Preview text in real time
 function updatePreview() {
     var input = document.getElementById('editor').value;
-    //var output = marked.parse(input); // Use marked like this
+    var output = marked.parse(input); // Use marked like this
     console.log(input);
-    //console.log(output);
-    document.getElementById('preview').innerHTML = input;
+    console.log(output);
+    document.getElementById('preview').innerHTML = output;
 }
 
 //Preview text Updater function as soon as we change text in the editor
