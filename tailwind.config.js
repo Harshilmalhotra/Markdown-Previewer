@@ -7,12 +7,7 @@ export default {
   ],
 
   theme: {
-    screens: {
-      'smb': '320px',   // Small screens (e.g., mobile portrait)
-      'md': '768px',   // Medium screens (e.g., tablets)
-      'lg': '1024px',  // Large screens (e.g., small desktops)
-      
-    },
+    
     extend: {
       fontFamily: {
         baloo: ["Baloo Bhai 2", "sans-serif"],

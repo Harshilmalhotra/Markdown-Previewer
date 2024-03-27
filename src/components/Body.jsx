@@ -58,12 +58,12 @@ export default function Body() {
         
 
        
-        <section className="h-[37rem] flex justify-between pr-16 pl-16 pt-10 pb-10 bg-slate-950 ">
+        <section className=" sm:h-[37rem] h-full flex flex-col  sm:flex-row justify-between sm:px-16 px-6 sm:py-10 py-6 bg-slate-950 ">
                 
         {/* Input Section */}
 
 
-                <div className="border w-1/2 flex-wrap p-2 border-2 rounded-lg mr-6 bg-gray-900 border-slate-800 shadow-lg shadow-slate-700">
+                <div className="w-full  sm:w-1/2 flex-wrap p-2 border-2 rounded-lg mr-6 bg-gray-900 border-slate-800 shadow-lg shadow-slate-700">
 
                     <div className="top-0 p-1 flex justify-between text-white text-lg font-semibold">Input 
                         
@@ -73,16 +73,16 @@ export default function Body() {
 
                     </div> 
                     
-                    <textarea id='editor' className="h-[23.5rem] w-full p-2 bg-gray-900 h-[25rem] text-white font-mono" placeholder="Enter the text in markdown...."  style={{ outline: 'none', /* or borderColor: 'transparent' */ }}></textarea>
+                    <textarea id='editor' className="h-[12rem] sm:h-[23.5rem] w-full p-2 bg-gray-900  text-white font-mono" placeholder="Enter the text in markdown...."  style={{ outline: 'none', /* or borderColor: 'transparent' */ }}></textarea>
                 
                 </div>
 
         {/* Output section */}
 
-                <div className="border w-1/2  flex-wrap p-2 border-2 rounded-lg bg-gray-900 border-slate-800 shadow-lg shadow-slate-700">
+                <div className="w-full overflow-auto mt-8 sm:m-0 sm:w-1/2 min-h-[50vh] flex-wrap p-2 border-2 rounded-lg bg-gray-900 border-slate-800 shadow-lg shadow-slate-700">
                     
                     <div className="top-0 p-1 text-white text-lg font-semibold">Output</div>
-                    <div id='preview'className="text-white m-4"></div>
+                    <div id='preview'className="text-white m-4 "></div>
 
                 </div>
 
