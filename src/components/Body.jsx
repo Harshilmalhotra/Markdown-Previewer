@@ -102,8 +102,8 @@ export default function Body() {
                 {/* Input Section */}
 
 
-                <div className="w-full text-white text-xl font-semibold sm:w-1/2 flex-wrap p-2 border-[1px] rounded-lg mr-6 bg-gray-900 border-slate-800 shadow-lg shadow-slate-700">
-                <div className="pb-1">Input </div> 
+                <div className="w-full text-white sm:w-1/2 flex-wrap p-2 border-[1px] rounded-lg mr-6 bg-gray-900 border-slate-800 shadow-lg shadow-slate-700">
+                <div className="pb-2 text-xl font-semibold ">Input </div> 
                     <div className="top-0 px-2 py-1 flex justify-between text-white text-lg font-semibold border-2 rounded-[.75rem] border-slate-700">
                         <button id="b2" onClick={b2} className="px-1  text-white hover:bg-slate-700 rounded-lg"><img src={Italics} alt="copy" className="h-[15px]"/></button>
                         <button id="b1" onClick={b1} className="px-1  text-white hover:bg-slate-700 rounded-lg"><img src={Bold} alt="copy" className="h-[20px]"/></button>
